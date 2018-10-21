@@ -44,6 +44,7 @@ buttonReset.addEventListener("click",function resetScores() {
     p2Display.textContent = "0";
     gameOver = false;
     p1Win = NaN;
+    p1Display.style.color = p2Display.style.color = "black";
 });
 /*----------Color Changer----------*/
 function colorChange() {

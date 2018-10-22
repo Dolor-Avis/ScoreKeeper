@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Score Keeper</title>
+	<link rel="stylesheet" type="text/css" href="scorekeeper.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+</head>
+<body>
+<div class="row light-green">
+ <div class="col s12">
+     <h1><span id="p1Display">0</span> to <span id="p2Display">0</span></h1>
+     <p>Playing to: <span class="waves-green">5</span></p>
+ </div>
+</div>
+<div class="materialboxed">
+<input title="We are Playing to..." type="number" class="input-field light-green text-darken-1 center flow-text">
+    <div class="center-align">
+        <button class="light-green waves-effect waves-light btn-large black-text" id="p1">Player One</button>
+        <button class="light-green waves-effect waves-light btn-large black-text" id="p2">Player Two</button>
+        <button class="light-green waves-effect waves-light btn-large black-text" id="reset">Reset</button>
+    </div>
+</div>
+    <!--Scripts-->
+    <script type="text/javascript" src="js/materialize.js"></script>
+    <script type="text/javascript" src="scorekeeper.js"></script>
+</body>
+</html>

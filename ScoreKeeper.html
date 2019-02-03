@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title>Score Keeper</title>
 	<link rel="stylesheet" type="text/css" href="scorekeeper.css">
@@ -16,14 +16,17 @@
  </div>
 </div>
 <div class="materialboxed">
-<input title="We are Playing to..." type="number" class="input-field light-green text-darken-1 center flow-text">
+    <label>
+        <input class="input-field light-green text-darken-1 center flow-text" title="We are Playing to..."
+               type="number">
+    </label>
     <div class="center-align">
         <button class="light-green waves-effect waves-light btn-large black-text" id="p1">Player One</button>
         <button class="light-green waves-effect waves-light btn-large black-text" id="p2">Player Two</button>
         <button class="light-green waves-effect waves-light btn-large black-text" id="reset">Reset</button>
     </div>
 </div>
-    <!--Scripts-->
+<!--Scripts Including Materialize.js-->
     <script type="text/javascript" src="js/materialize.js"></script>
     <script type="text/javascript" src="scorekeeper.js"></script>
 </body>
